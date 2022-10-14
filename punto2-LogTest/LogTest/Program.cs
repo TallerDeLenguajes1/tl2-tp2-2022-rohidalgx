@@ -7,12 +7,13 @@ public static class Program
     {
         try
         {
-           Logger.Info("Hello world");
-           System.Console.ReadKey();
+            Logger.Info("Hello world");
+            System.Console.ReadKey();
         }
         catch (Exception ex)
         {
-           Logger.Error(ex, "Goodbye cruel world");
+            Logger.Error(ex, "Goodbye cruel world");
         }
     }
-}  
+}
+
